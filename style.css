@@ -512,6 +512,23 @@ header.sticky{
         transition: .2s;
     }
 }
+/* Media Query for tablets and smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 4%;
+    }
+
+    .home {
+        grid-template-columns: 1fr; /* Adjusted for single column in small screens */
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Media Query for smaller laptops */
+@media (max-width: 1024px) {
+    /* Add specific styles for smaller laptops */
+}
 
 
 
