@@ -1,3 +1,31 @@
+/* Your existing CSS */
+
+/* Media Query for tablets and smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 4%;
+    }
+
+    .home {
+        grid-template-columns: 1fr; /* Adjusted for single column in small screens */
+    }
+
+    .home-text h1 {
+        font-size: 3rem; /* Adjust the font size for smaller screens */
+    }
+
+    .btn {
+        padding: 15px 25px; /* Adjust the button padding for smaller screens */
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Media Query for smaller laptops */
+@media (max-width: 1024px) {
+    /* Add specific styles for smaller laptops */
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -506,29 +534,7 @@ header.sticky{
     padding: 10px;
 }
 
-@media (max-width:1545px){
-    header{
-        padding: 22px 4%;
-        transition: .2s;
-    }
-}
-/* Media Query for tablets and smaller screens */
-@media (max-width: 768px) {
-    header {
-        padding: 20px 4%;
-    }
 
-    .home {
-        grid-template-columns: 1fr; /* Adjusted for single column in small screens */
-    }
-
-    /* Add more responsive styles as needed */
-}
-
-/* Media Query for smaller laptops */
-@media (max-width: 1024px) {
-    /* Add specific styles for smaller laptops */
-}
 
 
 
